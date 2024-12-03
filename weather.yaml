@@ -1,0 +1,13 @@
+# Path to the dataset root folder
+path: C:/Users/hp/Osasere_data_science/opencv_beginner_2/yolov8-cpu/weather_classification_project/weather_dataset_splitted
+
+# Relative paths to image datasets
+train: C:/Users/hp/Osasere_data_science/opencv_beginner_2/yolov8-cpu/weather_classification_project/weather_dataset_splitted/train
+val: C:/Users/hp/Osasere_data_science/opencv_beginner_2/yolov8-cpu/weather_classification_project/weather_dataset_splitted/val
+test: C:/Users/hp/Osasere_data_science/opencv_beginner_2/yolov8-cpu/weather_classification_project/weather_dataset_splitted/test  # Optional
+
+# Number of classes (update this based on your dataset)
+nc: 5
+
+# List of class names
+names: ["cloudy", "foggy", "rainy", "shine", "sunrise"]
